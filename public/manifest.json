@@ -1,0 +1,8 @@
+{
+  "short_name": "Album Manager",
+  "name": "Album Manage App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

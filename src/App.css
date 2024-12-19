@@ -1,0 +1,31 @@
+html,body{
+  height: 100%;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+
+*{
+  margin: 0;
+}
+
+:root{
+  --bg-color: linear-gradient(135deg,rgba(15, 4, 40, 0.9) 20%,rgba(94, 43, 234, 0.7));
+  --s-bg-color:rgba(8, 4, 19, 0.7);
+  --tile-bg-color: rgba(198, 194, 194, 0.3);
+  --hover-bg-color:linear-gradient(135deg,rgb(48, 6, 83) 20%,rgba(255, 0, 153, 0.4));
+}
+
+
+.loading{
+  position: fixed;
+  top:0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.467);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
